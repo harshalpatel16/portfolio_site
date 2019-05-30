@@ -1,0 +1,38 @@
+ @media screen and (max-width: 376px) {
+     body{
+        margin: auto;
+     }
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        display: inline-block;
+    }
+    .logo_container{
+        width: 645px;
+        margin-top: 0px;
+        margin-left: 355px;
+    }
+
+    .header_info{
+        width: 1000px;
+        display: inline-block;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .project_info_container{
+        display: flex;
+        flex-wrap: wrap;
+        display:inline-block;
+    }
+   
+    .project_img_container{
+        width: 1000px;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+
+ 

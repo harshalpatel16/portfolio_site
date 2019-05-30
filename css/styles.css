@@ -1,0 +1,99 @@
+body{
+    max-width: 1000px;
+    height: 1000px;
+    margin: auto;
+}
+.header{
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo_container{
+    width: 200px;
+    height: 150px;
+    background-image: url('../img/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;    
+}
+
+.header_info{
+    width: 780px;
+    height: 150px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.header_name{
+    font-size: 50px;
+    line-height: 3px;
+    color: #7d97ad;
+}
+
+.header_title{
+    color: #2d3c49;
+}
+
+hr{
+    width: 1000px;
+    height: 5px;
+    background-color: #7d97ad;
+}
+.center_image_container{
+    max-width: 1000px;
+    height: 500px;
+}
+.center_img{
+    max-width: 1000px;
+    height: 500px;
+   }
+
+.project_info{
+    width: 1000px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.project_info_header{
+    font-size: 25px;
+    color: #2d3c49;
+    line-height: 10px;
+}
+
+.project_info_container{
+    width: 1000px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project_img_container{
+    max-width:333px;
+    height: 250px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.portfolio_img{
+    margin-right: 48px;
+}
+
+.restaurant_img{
+    margin-left:44px;
+}
+
+p{
+    font-size: 20px;
+    color: #2d3c49;
+    line-height: 5px;
+}
+
+a{
+    text-decoration: none;
+    color:#7d97ad;
+}
+
+
